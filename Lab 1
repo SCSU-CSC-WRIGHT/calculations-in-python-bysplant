@@ -1,5 +1,17 @@
-#Lab 1
-principal_amt=float(input("Enter the principal amount "))
-rate_of_interest=float(input("Enter the rate of interest "))
-time_period_in_years=int(input("Enter the time period in years "))
-principal_amt*rate_of_interest*time_period_in_years/100
+#Lab 1 calculating simple interest
+principal_amt = float(input("Enter the principal amount "))
+rate_of_interest = float(input("Enter the rate of interest "))
+time_period_in_years = float(input("Enter the time period in years "))
+simple_interest = float(principal_amt*rate_of_interest*time_period_in_years/100)
+print("Your simple interest is ",simple_interest)
+
+#Lab 2 Body Mass Index (BMI) calculator
+weight_kg = float(input("Enter your weight in kilograms "))
+height_m = float(input("Enter your height in meters "))
+bmi = float(weight_kg/height_m**2)
+print("Your BMI is ",bmi)
+
+#Lab 3 coverting Celsius to Fahrenheit
+celsius_temp = float(input("Enter the temperature in Celsius "))
+fah_temp = float((celsius_temp*9/5)+32)
+print("The temperature in Fahrenheit is ",fah_temp)
